@@ -1,3 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	background-color: #6495ed;
+}
+
+
+header {
+	display: block;
+	background-color: grey;
+	height: 50px;
+
+
+nav {
+	display: block;
+	background-color: cornflowerblue;
+}
+
+
+article {
+	background-color: cornflowerblue;
+}
+
+
+footer {
+	background-color: #1e2229;
+	color: #617990;
+	padding-bottom: 50px;
+}
+
+
+/*
 html, body {
 	margin: 0;
 	padding: 0;
@@ -11,6 +44,11 @@ html, body {
 	width: 1048px;
 	margin: 0 auto;
 	}
+
+header {
+	background-color: grey;
+	height: 50px;
+}
 
 nav {
 	width: 250px;
@@ -123,27 +161,47 @@ footer {
 
 <-?
 
-a {
-	background-color: white;
-	text-decoration: none;
-	padding: 5px;
-}
-
-input {
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-label {
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-.log {
-	margin: 0 auto;
-    background-color: gray;
-    width: fit-content;
-    padding: 15px;
+a {
+
+	background-color: white;
+
+	text-decoration: none;
+
+	padding: 5px;
+
 }
 
--->
+
+
+input {
+
+	margin-top: 5px;
+
+	margin-bottom: 5px;
+
+}
+
+
+
+label {
+
+	margin-top: 5px;
+
+	margin-bottom: 5px;
+
+}
+
+
+
+.log {
+
+	margin: 0 auto;
+
+    background-color: gray;
+
+    width: fit-content;
+
+    padding: 15px;
+
+}
+*/

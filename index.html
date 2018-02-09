@@ -7,19 +7,34 @@
   <meta charset="UTF-8">
   <meta name="Author" content="Pawel Dudak" />
   <link rel="stylesheet" type="text/css" href="style.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
   
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
 
 </head>
-<body id="CIALO">
+<body>
       
-      <header>
-        <img src="naglowek.jpg" alt="brak obrazka"/>
+      <header class="container">
+        <img src="naglowek.jpg" alt="brak obrazka" id="up"/>
       </header>
                       
-      <nav><p class="naglowek">MENU</p>
-          
-         <dl id="menu0">
+      <div class="container">
+	  <div class="row">
+		<nav class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+		<p class="naglowek">MENU</p>
+		<dl>
           <dt><a href="index.html">Strona Główna</a></dt>
           <dt class="l">Rozwiń</dt>
           <dd><a href="1.html">1</a></dd>
@@ -32,7 +47,7 @@
           <dt class="l">O stronie</dt>
           <dd><a href="8.html">Autor</a></dd>
           <dd><a href="9.html">about</a></dd>
-         </dl>         
+        </dl>         
              
           <ul class="w3c">
 	    
@@ -40,13 +55,34 @@
           </ul>
       </nav>
       
-      <section>
+      <article class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
 	  <h1>tekst</h1>
 
-      </section> 
+      </article>
+      
+      </div>
+      </div>
       
       <footer>
-        CREATED 2015-2017 by Paweł Dudak
+		<div class="container">
+		<div class="row">
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        CREATED 2018 by Paweł Dudak
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <p>Autor: Paweł Dudak</p>
+		<p>Adres E-mail: dudakpawel@gmail.com</p>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+		<p>ddgggg</p>
+		<p>ddgggg</p>
+		<p>ddgggg</p>
+		</div>
+	    </div>
+	    </div>
 	  </footer>
+	  
+	  <a href="#up" class="btn btn-info" role="button">Link Button</a>
+	  
 </body>
 </html>
